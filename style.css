@@ -1,0 +1,178 @@
+/* *@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap'); */
+ #p1{
+    margin-bottom:52px; 
+  
+ }
+ #p2{
+    margin-bottom:6px;
+ }
+ #p3{
+    margin-bottom:52px;
+ }
+ #p4{
+    margin-bottom:120px;
+
+ } 
+
+ /* here is the code for clock design */
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+  }
+  .digital{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .h{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:#064d18;
+    text-shadow: 0px 1px 7px #3a3a41;
+  }
+  #clock {
+    margin-top: 43px;
+    margin-left: 397px;
+    padding: 12px;
+    height: 30vh;
+    box-shadow: 10px 18px 15px rgb(97, 91, 91);
+    border:3px solid #5a5858;
+    border-radius:28px;
+    width: 44%;
+    background-color: #14080e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #17D4FE;
+    font-family: 'Orbitron', sans-serif;
+    font-weight:500;
+    font-size: 60px;
+    letter-spacing: 7px;
+  }
+
+/* footer code starts from here */
+
+.footer-content{
+    background-color: #025c18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: default;
+}
+.footer-content h3{
+    margin-top:39px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color:#fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    cursor: default;
+}
+.footer-content h6{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px;
+    color: #fdfeff;
+    cursor: pointer;
+}
+.footer-content p{
+    max-width: 500px;
+    /* margin-top:29px; */
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px;
+    cursor: default;
+    color: #fdfeff;
+}
+/* .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+} */
+.footer-bottom{
+    background:#064d18;
+    width: 100vw;
+    /* padding: 20px;
+    padding-bottom:10px; */
+    text-align: center;
+}
+
+/* .footer-bottom p{
+    float: left;
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ } */
+ .para22{
+    float: left;
+    font-size: 10px;
+    padding-top: 20px;
+    font-weight: 500;
+    word-spacing: 1.6px;
+    /* text-transform: capitalize; */
+ }
+ /* .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ } */
+ @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+
+    @media (max-width:800px) {
+      .footer-menu ul{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      }
+  
+
+
+
+
+
+
+  
